@@ -395,7 +395,7 @@ func cmdSPIWrite(m *Manager, argv []string) {
 	}
 
 	if len(argv) < 3 {
-		fmt.Println("please specify the range: read [jc] [start=0x6000] [size=0x0100] [outfile=stdout]")
+		fmt.Println("please specify the range: write [jc] [start=0x6000] [size=0x02] [byte=0x00] [byte=0x00]]")
 		return
 	}
 
